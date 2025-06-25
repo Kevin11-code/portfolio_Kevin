@@ -121,10 +121,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   // {
   //   name: "Three JS",
   //   icon: threejs,
@@ -175,11 +175,14 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jul 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "Awarded \"Best in Action\" at the company townhall for resolving long-standing Ubuntu and SUSE Linux support issues impacting key clients.",
+      "Established standardized Git-based workflows and release validation practices for thick clients, significantly improving release stability and reducing deployment errors.",
+      "Spearheaded the migration of a 7-year-old legacy C++ codebase (Screengrab & ARUH) to Python, enhancing maintainability, flexibility, and long-term scalability.",
+      "Automated the packaging pipeline across multiple Linux distributions (Ubuntu 20/22/24, SUSE 15, Rocky 9.2–9.5) by developing custom shell scripts, reducing human error and saving engineering hours.",
+      "Built and maintained modular shell scripts to streamline and standardize Linux build processes, accelerating release timelines and boosting developer productivity.",
+      "Currently owning and modernizing internal CLI tooling (pycli-pam and pycli-ci) to support future infrastructure growth.",
+      "Winner of ARCON's internal coding hackathon, recognized for speed, code quality, and innovative problem-solving under pressure.",
+    ]
   },
   // {
   //   title: "Full stack Developer",
