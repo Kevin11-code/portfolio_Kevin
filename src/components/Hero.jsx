@@ -23,8 +23,7 @@ const Hero = () => {
             interfaces and web applications
           </p> */}
           <p className={`${styles.heroSubText} mt-2 md:mb-2 text-white-100`}>
-            I develop MERN web applications <br className="sm:block hidden" />
-            and love solving coding problems
+            Developer by Role. Problem Solver by Habit. Linux is Home. <br className="sm:block hidden" />
           </p>
         </div>
       </div>
