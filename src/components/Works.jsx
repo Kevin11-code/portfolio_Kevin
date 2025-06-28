@@ -3,7 +3,7 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, web } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  hosted_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -28,15 +29,32 @@ const ProjectCard = ({
       >
         <div className='relative w-full h-[230px]'>
           <img
-            src={image}
+            src={hosted_link ? `${hosted_link}/preview.png` : image}
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
+            onError={(e) => {
+              e.target.src = image; // Fallback to default image if hosted image fails
+            }}
           />
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          <div className='absolute inset-0 flex justify-end m-3 card-img_hover gap-2'>
+            {hosted_link && (
+              <div
+                onClick={() => window.open(hosted_link, "_blank")}
+                className='bg-gradient-to-r from-blue-500 to-purple-600 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition-transform'
+                title='Live Demo'
+              >
+                <img
+                  src={web}
+                  alt='live demo'
+                  className='w-1/2 h-1/2 object-contain'
+                />
+              </div>
+            )}
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition-transform'
+              title='Source Code'
             >
               <img
                 src={github}

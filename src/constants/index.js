@@ -230,7 +230,7 @@ const projects = [
   {
     name: "Filepilot",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Cross-platform SFTP solution built with Python, allowing secure file transfers between local and remote systems. Also supports server to server transfers.",
     tags: [
       {
         name: "python",
@@ -247,77 +247,85 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/Kevin11-code/filepilot",
+    hosted_link: "https://filepilot.vercel.app/",
   },
   {
     name: "ChatAI",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A chat application that allows users to interact with an AI model using Gemini API, providing a seamless and engaging user experience.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
+        color: "white",
+      },
+      {
+        name: "gemini",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Kevin11-code/chatai",
+    hosted_link: "https://chatgpt-clone-ten-rust.vercel.app/",
   },
   {
     name: "DecentSupply.",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A decentralized supply chain management system that leverages blockchain technology to ensure transparency and traceability in the supply chain process.",
     tags: [
       {
-        name: "nextjs",
+        name: "ethereum",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "material-ui",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javaScript",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    hosted_link: "https://www.loom.com/share/81b336826b444783a30f4e0ad88ae258",
   },
   {
     name: "Validize",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive employee validation system that uses OCR to extract and validate employee data, with a flagging system to identify potential issues.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javaScript",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    hosted_link: "https://drive.google.com/file/d/1homf-DtsR835nnstVKPPIz98UcNsoC5B/view?usp=drivesdk",
   },
   {
     name: "ExpenseTracker",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A personal finance management application that helps users track their expenses, set budgets, and analyze their spending habits.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
@@ -325,20 +333,21 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Kevin11-code/expense-flow-analyzer-pro",
+    hosted_link: "",
   },
   {
-    name: "DecentSupply.",
+    name: "KHP Inventory Management System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive inventory management system that allows users to track and manage their inventory efficiently.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
@@ -346,12 +355,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Kevin11-code/inventory-khp",
   },
 ];
 
