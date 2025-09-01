@@ -176,6 +176,7 @@ const experiences = [
     date: "Jul 2024 - Present",
     points: [
       "Awarded \"Best in Action\" at the company townhall for resolving long-standing Ubuntu and SUSE Linux support issues impacting key clients.",
+      "Awarded \"Certificate of Merit\" at the ARCON Townhall for resolving a critical Linux Thick Client ticket and adding key-based authentication support in PuTTY and SFTP(FileZilla).",
       "Established standardized Git-based workflows and release validation practices for thick clients, significantly improving release stability and reducing deployment errors.",
       "Spearheaded the migration of a 7-year-old legacy C++ codebase (Screengrab & ARUH) to Python, enhancing maintainability, flexibility, and long-term scalability.",
       "Automated the packaging pipeline across multiple Linux distributions (Ubuntu 20/22/24, SUSE 15, Rocky 9.2–9.5) by developing custom shell scripts, reducing human error and saving engineering hours.",
